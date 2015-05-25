@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Horizontally Scrolling Site from CSS-Tricks</title>
+	
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+</head>
+
+<body>
+	<div id="page-wrap" class="sky">
+		
+		<div class="post">
+			<h1 class="storyHeadings">REDUCING THE</br>RISING DEATH TOLL</h1>
+			<p class="storyBody">It is assumed that one of the biggest killers</br> on the road is drink driving</p>
+		</div>
+		
+		<div class="post">
+			<h1 class="storyHeadings">Did you know that the actual killer is driver fatigue?</h1>
+			<p class="storyBody">"In 2012 more people in NSW died in fatigue-related crashes than drink driving crashes."</p>
+		</div>
+		
+		<div class="post">
+			<h1 class="storyHeadings">The issue</h1>
+			<p class="storyBody">Although rest areas have been introduced they're poorly executed and  provide inadequate services.</br>Many drivers simply don't feel comfortable stopping</p>
+		</div>
+		
+		<div class="post">
+			<h1 class="storyHeadings">Who this matters to?</h1>
+			<p class="storyBody">Fatigue effects <bold>all drivers</bold> and with <bold>17 633 493</bold> motor vehicles on the road in 2014 its vital we fix this issue</p>
+		</div>
+		
+		<div class="post">
+			<h1 class="storyHeadings">What people think</h1>
+			<p class="storyBody" style="margin-left:-135px;"><underline>Matt</underline><underlineM>Bec</underlineM></br><left>"I have never stopped at a rest stop area for the 10 years I have been driving"</left><right>"Usually just take a coffee or energy drink with me when I do a long trip and when I do stop I defiantly don't stop at rest stops because there are so dirty!"</right></p>
+		</div>
+        
+       <div class="post">
+			<h1 class="storyHeadings">Our two part solution!</h1>
+			<p class="storyBody">1.Improve rest stops to meet standards people expect</br></br>2. Create a smartphone app that helps promote users taking rests through ease of use & reward</p>
+		</div>
+        
+        <div class="post">
+			<h1 class="storyHeadings">Lets give our rest stops:</h1>
+			<p class="storyBody">&middot; Food & Drink via vending machines</br>&middot; Sleeping area via sleeping pod</br>&middot; Real toliets (not drop toliets)</br>&middot; Better more consistent signage & lighting</p>
+		</div>
+	</div>
+    
+    <img src="assets/images/cityscape-bare.png" class="city"></img>
+    
+    <img src="assets/images/petrol-station.png" class="petrol-station"></img>
+    
+    <img src="assets/images/billboard2.png" class="billboard2"></img>
+    
+    <img src="assets/images/rest-area-sign.png" class="rest-area-sign"></img>
+    
+    <img src="assets/images/bench.png" class="bench"></img>
+    
+    <img src="assets/images/bench.png" class="bench2"></img>
+    
+    <img src="assets/images/car3.png" class="car"></img>
+    
+    <img src="assets/images/billboard3.png" class="billboard3"></img>
+    
+    <img src="assets/images/billboard4.png" class="billboard4"></img>
+    
+    <img src="assets/images/roadsign.png" class="roadsign"></img>
+    
+    <div class="ground">
+    
+    <div class="road">
+    <div class="marker">
+    </div>
+    </div>
+    
+    </div>
+	
+</body>
+
+</html>

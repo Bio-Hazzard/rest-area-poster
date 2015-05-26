@@ -40,7 +40,7 @@ tr {
 	background: linear-gradient(to bottom,  #050f33 0%,#1e5799 53%,#1e5799 53%,#7db9e8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050f33', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 
-	width:15200px;
+	width:18300px;
 	height: 50%;
 }
 
@@ -88,6 +88,33 @@ tr {
 	max-width:500px;
 }
 
+.coffee-vending{
+	position:relative;
+	margin-top:-400px;
+	margin-bottom:78px;
+	width:2.00%;
+	margin-left:13733px;;
+	max-width:500px;
+}
+
+.vending-machine1{
+	position:relative;
+	margin-top:-400px;
+	margin-bottom:82px;
+	width:3.00%;
+	margin-left:13793px;
+	max-width:500px;
+}
+
+.vending-machine2{
+	position:relative;
+	margin-top:-400px;
+	margin-bottom:89px;
+	width:3.00%;
+	margin-left:13880px;
+	max-width:500px;
+}
+
 .petrol-station{
 	position:relative;
 	margin-top:-350px;
@@ -103,6 +130,24 @@ tr {
 	margin-bottom:33px;
 	width:3.00%;
 	margin-left:5480px;;
+	max-width:500px;
+}
+
+.rest-area-sign2{
+	position:relative;
+	margin-top:-350px;
+	margin-bottom:96px;
+	width:3.00%;
+	margin-left:13423px;;
+	max-width:500px;
+}
+
+.rest-station{
+	position:relative;
+	margin-top:-466px;
+	margin-bottom:106px;
+	width:17.00%;
+	margin-left:14090px;;
 	max-width:500px;
 }
 
@@ -138,8 +183,8 @@ tr {
 .ground{
 	
 	background-color:#630;
-	margin-top: -72px;
-	width:15200px;
+	margin-top: -107px;
+	width:18300px;
 	height:50%;
 }
 
@@ -174,6 +219,11 @@ tr {
 	margin-bottom: 20px;
 }
 
+.storyHeadings bold{
+	color: #FFF;
+	font-weight: bold;
+}
+
 .storyBody{
 	color: #A6A6A6;
 	font-size: 30px;
@@ -181,7 +231,7 @@ tr {
 }
 
 .storyBody bold{
-	color: #000;
+	color: #FFF;
 	font-weight: bold;
 }
 

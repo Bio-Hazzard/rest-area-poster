@@ -183,7 +183,8 @@ tr {
 .ground{
 	
 	background-color:#630;
-	margin-top: -107px;
+	margin-top: -120px;
+	padding-bottom: 13px;
 	width:20350px;
 	height:50%;
 }

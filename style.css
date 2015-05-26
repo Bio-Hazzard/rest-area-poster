@@ -40,7 +40,7 @@ tr {
 	background: linear-gradient(to bottom,  #050f33 0%,#1e5799 53%,#1e5799 53%,#7db9e8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050f33', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 
-	width:18300px;
+	width:20350px;
 	height: 50%;
 }
 
@@ -184,7 +184,7 @@ tr {
 	
 	background-color:#630;
 	margin-top: -107px;
-	width:18300px;
+	width:20350px;
 	height:50%;
 }
 
@@ -252,6 +252,18 @@ tr {
 }
 
 .storyBody right{
+	float: right;
+	margin-right: -250px;
+	width: 664px;
+}
+
+.storyBody left2{
+	float:left;
+	margin-left: -275px;
+	width: 571px;
+}
+
+.storyBody right2{
 	float: right;
 	margin-right: -250px;
 	width: 664px;
